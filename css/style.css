@@ -1,6 +1,8 @@
 /* Base */
 html {
-  overflow-x: hidden; }
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
 
 .font-size-10 {
   font-size: 10px; }
@@ -341,7 +343,7 @@ h1, h2, h3, h4, h5,
 .hover-bg-enlarge {
   overflow: hidden;
   position: relative; }
-  @media (max-width: 991.98px) {
+  @media (max-width: 1200px) {
     .hover-bg-enlarge {
       height: auto !important; } }
   .hover-bg-enlarge > div {
@@ -355,7 +357,7 @@ h1, h2, h3, h4, h5,
     -webkit-transform: scale(1.2);
     -ms-transform: scale(1.2);
     transform: scale(1.2); }
-  @media (max-width: 991.98px) {
+  @media (max-width: 1200px) {
     .hover-bg-enlarge .bg-image-md-height {
       height: 300px !important; } }
 
@@ -392,11 +394,11 @@ h1, h2, h3, h4, h5,
     position: relative;
     z-index: 1; }
 
-@media (max-width: 991.98px) {
+@media (max-width: 1200px) {
   .img-md-fluid {
     max-width: 100%; } }
 
-@media (max-width: 991.98px) {
+@media (max-width: 1200px) {
   .display-1, .display-3 {
     font-size: 3rem; } }
 
@@ -471,7 +473,7 @@ h1, h2, h3, h4, h5,
   top: 0;
   width: 100%;
   padding: 1rem; }
-  @media (max-width: 991.98px) {
+  @media (max-width: 1200px) {
     .site-navbar {
       padding-top: 3rem;
       padding-bottom: 3rem; } }
@@ -482,10 +484,9 @@ h1, h2, h3, h4, h5,
     margin: 0;
     padding: 0;
     font-size: 1.7rem; }
-    .site-navbar .site-logo a {
-      color: #00a651;
-      text-transform: lowercase; }
-    @media (max-width: 991.98px) {
+    .site-navbar a {
+      color: #00a651;}
+    @media (max-width: 1200px) {
       .site-navbar .site-logo {
         float: left;
         position: relative; } }
@@ -774,7 +775,7 @@ h1, h2, h3, h4, h5,
   .sticky-wrapper .shrink {
     padding-top: 0px !important;
     padding-bottom: 0px !important; }
-    @media (max-width: 991.98px) {
+    @media (max-width: 1200px) {
       .sticky-wrapper .shrink {
         padding-top: 30px !important;
         padding-bottom: 30px !important; } }
@@ -793,7 +794,7 @@ h1, h2, h3, h4, h5,
   .site-section-cover .container > .row {
     height: calc(100vh - 196px);
     min-height: 577px; }
-    @media (max-width: 991.98px) {
+    @media (max-width: 1200px) {
       .site-section-cover,
       .site-section-cover .container > .row {
         height: calc(70vh - 196px);
@@ -824,7 +825,7 @@ h1, h2, h3, h4, h5,
     color: #fff;
     line-height: 1;
     font-weight: 900 !important; }
-    @media (max-width: 991.98px) {
+    @media (max-width: 1200px) {
       .site-section-cover h1 {
         font-size: 2rem; } }
   .site-section-cover p {
@@ -833,7 +834,7 @@ h1, h2, h3, h4, h5,
 
 .site-section {
   padding: 7rem 0; }
-  @media (max-width: 991.98px) {
+  @media (max-width: 1200px) {
     .site-section {
       padding: 3rem 0; } }
 
@@ -846,7 +847,7 @@ h1, h2, h3, h4, h5,
 .block-heading-1 h2 {
   font-size: 3rem;
   color: #00a651; }
-  @media (max-width: 991.98px) {
+  @media (max-width: 1200px) {
     .block-heading-1 h2 {
       font-size: 2rem; } }
 
@@ -892,7 +893,7 @@ h1, h2, h3, h4, h5,
 .block-img-video-1-wrap .block-img-video-1 {
   position: relative;
   margin-top: -10rem; }
-  @media (max-width: 991.98px) {
+  @media (max-width: 1200px) {
     .block-img-video-1-wrap .block-img-video-1 {
       margin-top: -6rem; } }
 
@@ -941,7 +942,7 @@ h1, h2, h3, h4, h5,
     position: relative;
     padding-bottom: 20px;
     margin-bottom: 20px; }
-    @media (max-width: 991.98px) {
+    @media (max-width: 1200px) {
       .block-counter-1 .number {
         font-size: 2rem; } }
     .block-counter-1 .number:after {
@@ -1189,11 +1190,11 @@ h1, h2, h3, h4, h5,
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat; }
-  @media (max-width: 991.98px) {
+  @media (max-width: 1200px) {
     .block__73694 .block__73422 {
       height: 400px; } }
 
-@media (max-width: 991.98px) {
+@media (max-width: 1200px) {
   .slide-one-item .owl-nav {
     display: none; } }
 
@@ -1315,7 +1316,7 @@ h1, h2, h3, h4, h5,
     .owl-all .owl-dots .owl-dot.active > span {
       background: #00a651; }
 
-@media (min-width: 992px) {
+@media (min-width:1200px) {
   .owl-all .owl-nav,
   .owl-all .owl-dots {
     display: none; }
@@ -1628,7 +1629,7 @@ h1, h2, h3, h4, h5,
   margin-top: 20px;
   margin-bottom: 20px;
   padding: 4rem; }
-  @media (max-width: 991.98px) {
+  @media (max-width: 1200px) {
     .box-29291 {
       margin-right: 0px; } }
 
@@ -1644,7 +1645,7 @@ h1, h2, h3, h4, h5,
   .box-92819 h1 {
     font-weight: 900 !important;
     font-size: 5rem;
-    font-family: "Mansalva", cursive !important; }
+    font-family: "Roboto", cursive !important; }
 
 .text-cursive {
   font-family: "Open Sans", cursive !important; }
@@ -1714,7 +1715,7 @@ h1, h2, h3, h4, h5,
     height: 300px;
     background-size: cover;
     background-position: center; }
-    @media (max-width: 991.98px) {
+    @media (max-width: 1200px) {
       .feature-29192-wrap .feature-29192 {
         width: 100%;
         position: relative;
@@ -1905,4 +1906,65 @@ h1, h2, h3, h4, h5,
 
 #contact .form button[type="submit"]:hover {
   background: #25d8fc;
+}
+
+.actions {
+  position: relative;
+}
+
+.action-btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/*--------------------------------------------------------------
+# Header
+--------------------------------------------------------------*/
+#header {
+    background: #fff;
+    padding: 20px 0;
+    height: 90px;
+}
+
+#header #logo {
+    float: left;
+}
+
+#header #logo h1 {
+    font-size: 36px;
+    margin: 0;
+    padding: 6px 0;
+    line-height: 1;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+#header #logo h1 a, #header #logo h1 a:hover {
+    color: #fff;
+}
+
+#header #logo img {
+    padding: 0;
+    margin: 0;
+    max-height: 50px;
+}
+
+@media (max-width: 768px) {
+    #header {
+        height: 80px;
+    }
+    #header #logo h1 {
+        font-size: 26px;
+    }
+    #header #logo img {
+        max-height: 40px;
+    }
+}
+
+.is-sticky #header {
+    background: rgba(255, 255, 255, 0.85);
 }
